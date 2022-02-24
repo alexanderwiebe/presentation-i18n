@@ -8,6 +8,8 @@ import { IntroComponent } from './intro/intro.component';
 import { WhatIsComponent } from './what-is/what-is.component';
 import { HowToUseComponent } from './how-to-use/how-to-use.component';
 import { DemoComponent } from './demo/demo.component';
+import { QuestionsComponent } from './questions/questions.component';
+import { ThanksComponent } from './thanks/thanks.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { DemoComponent } from './demo/demo.component';
     IntroComponent,
     WhatIsComponent,
     HowToUseComponent,
-    DemoComponent
+    DemoComponent,
+    QuestionsComponent,
+    ThanksComponent
   ],
   imports: [
     BrowserModule,
