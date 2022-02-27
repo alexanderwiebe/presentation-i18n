@@ -1,6 +1,15 @@
-<div>
+<div class="header">
+  <a routerLink="">home</a>
+</div>
+<div class="slide">
   <h1 i18n>Welcome to internationalization (i18n)!</h1>
   <h4 i18n>By AJ</h4>
 </div>
-<a routerLink="/intro" i18n>next</a>
-<a routerLink="" i18n>previous</a>
+<div class="footer" fxLayout="row">
+  <div fxFlex="50%">
+    <a routerLink="" i18n>previous</a>
+  </div>
+  <div fxFlex="50%" fxLayoutAlign="end">
+    <a routerLink="/intro" i18n>next</a>
+  </div>
+</div>
