@@ -1,5 +1,10 @@
-<div class="header">
-  <a routerLink="">home</a>
+<div class="header" fxLayout="row">
+  <div fxFlex="50%">
+    <a routerLink="">home</a>
+  </div>
+  <div fxFlex="50%" fxLayoutAlign="end">
+    <span i18n>🇺🇸</span>
+  </div>
 </div>
 <div class="slide">
   <h1 i18n>Welcome to internationalization (i18n)!</h1>
@@ -11,6 +16,6 @@
     <a routerLink="" i18n>previous</a>
   </div>
   <div fxFlex="50%" fxLayoutAlign="end">
-    <a i18n-href href="http://localhost:3337/" i18n>next</a>
+    <a i18n-href href="http://localhost:2337/" i18n>next</a>
   </div>
 </div>
