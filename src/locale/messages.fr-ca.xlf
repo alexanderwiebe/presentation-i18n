@@ -13,7 +13,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/how-to-use/how-to-use.component.html</context>
@@ -21,7 +21,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/intro/intro.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">23</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/questions/questions.component.html</context>
@@ -47,7 +47,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">27</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/how-to-use/how-to-use.component.html</context>
@@ -55,7 +55,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/intro/intro.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">20</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/questions/questions.component.html</context>
@@ -100,44 +100,68 @@
       </trans-unit>
       <trans-unit id="7227810173387581443" datatype="html">
         <source>Hello, how are you?</source>
-        <target state="new">Hello, how are you?</target>
+        <target state="translated">Bonjour, ca va?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6971478254287314736" datatype="html">
-        <source>Hi, nice to meet you.</source>
-        <target state="new">Hi, nice to meet you.</target>
+      <trans-unit id="7316391083351511601" datatype="html">
+        <source>Hi, I'm good.</source>
+        <target state="translated">Ca-va, et toi, regarde-tu le match?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3500612477875711692" datatype="html">
-        <source>http://localhost:3337/</source>
-        <target state="new">http://localhost:3337/</target>
+      <trans-unit id="3949366432652561482" datatype="html">
+        <source>What's new with you?</source>
+        <target state="translated">Oh mais oui, c'est incroyable!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2512312575278423726" datatype="html">
-        <source>http://localhost:2337/intro</source>
-        <target state="new">http://localhost:2337/intro</target>
+      <trans-unit id="9090039267906661122" datatype="html">
+        <source>
+          I bought this hoody for
+          <x id="INTERPOLATION" equiv-text="{{ hoodyCost | currency }}" />
+        </source>
+        <target state="translated">
+          Super, J'achetais cet étreinte de lapin pour
+          <x id="INTERPOLATION" equiv-text="{{ hoodyCost | currency }}" />
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="271433218188500790" datatype="html">
+        <source>It looks good on you!</source>
+        <target state="translated">Bon, c'est magnifique pour toi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="202315658200444781" datatype="html">
+        <source>http://localhost:1337/intro</source>
+        <target state="new">http://localhost:2337/greetings</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="2502443150993127739" datatype="html">
+        <source>http://localhost:2337/greetings</source>
+        <target state="new">http://localhost:1337/quiz</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
+
+
       <trans-unit id="3984071274707991914" datatype="html">
         <source>Welcome to internationalization (i18n)!</source>
         <target state="translated">Bonjour tout le monde 🏒</target>
