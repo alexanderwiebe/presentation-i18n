@@ -12,12 +12,16 @@
           <context context-type="linenumber">2</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/how-to-use/how-to-use.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/intro/intro.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="linenumber">22</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/questions/questions.component.html</context>
@@ -34,7 +38,7 @@
       </trans-unit>
       <trans-unit id="6095534740119293938" datatype="html">
         <source>previous</source>
-        <targer state="translated">précédent</targer>
+        <target state="translated">précédent</target>
 
 
         <context-group purpose="location">
@@ -42,12 +46,16 @@
           <context context-type="linenumber">3</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/how-to-use/how-to-use.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/intro/intro.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">19</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/questions/questions.component.html</context>
@@ -75,15 +83,64 @@
       </trans-unit>
       <trans-unit id="9053919568595079799" datatype="html">
         <source>🇺🇸</source>
-        <target state="new">🇨🇦🇫🇷</target>
+        <target state="translated">🇨🇦🇫🇷</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/title/title.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7227810173387581443" datatype="html">
+        <source>Hello, how are you?</source>
+        <target state="new">Hello, how are you?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6971478254287314736" datatype="html">
+        <source>Hi, nice to meet you.</source>
+        <target state="new">Hi, nice to meet you.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3500612477875711692" datatype="html">
+        <source>http://localhost:3337/</source>
+        <target state="new">http://localhost:3337/</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2512312575278423726" datatype="html">
+        <source>http://localhost:2337/intro</source>
+        <target state="new">http://localhost:2337/intro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3984071274707991914" datatype="html">
         <source>Welcome to internationalization (i18n)!</source>
-        <target state="translated">Bonjour tous le monde 🏒</target>
+        <target state="translated">Bonjour tout le monde 🏒</target>
 
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/title/title.component.html</context>
@@ -98,6 +155,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/title/title.component.html</context>
           <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7239951618239337716" datatype="html">
+        <source>http://localhost:1337/</source>
+        <target state="translated">http://localhost:2337/</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.html</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1271260036909559504" datatype="html">

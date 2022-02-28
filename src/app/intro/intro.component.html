@@ -1,3 +1,24 @@
-<p>intro works!</p>
-<a routerLink="/what-is" i18n>next</a>
-<a routerLink="/title" i18n>previous</a>
+<div class="header" fxLayout="row">
+  <div fxFlex="50%">
+    <a routerLink="">home</a>
+  </div>
+  <div fxFlex="50%" fxLayoutAlign="end">
+    <span i18n>🇺🇸</span>
+  </div>
+</div>
+<div class="slide" fxLayout="row">
+  <ul>
+    <li>i18n in template</li>
+    <li>i18n in TypeScript</li>
+    <li>build deployments</li>
+    <li>demo</li>
+  </ul>
+</div>
+<div class="footer" fxLayout="row">
+  <div fxFlex="50%">
+    <a i18n-href href="http://localhost:3337/" i18n>previous</a>
+  </div>
+  <div fxFlex="50%" fxLayoutAlign="end">
+    <a i18n-href href="http://localhost:2337/intro" i18n>next</a>
+  </div>
+</div>
