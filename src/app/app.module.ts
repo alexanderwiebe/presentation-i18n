@@ -10,6 +10,7 @@ import { QuestionsComponent } from './questions/questions.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { TitleComponent } from './title/title.component';
 import { WhatIsComponent } from './what-is/what-is.component';
+import { GreetingsComponent } from './greetings/greetings.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { WhatIsComponent } from './what-is/what-is.component';
     DemoComponent,
     QuestionsComponent,
     ThanksComponent,
+    GreetingsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FlexLayoutModule],
   providers: [],
