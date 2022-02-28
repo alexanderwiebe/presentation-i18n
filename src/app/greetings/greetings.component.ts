@@ -8,6 +8,15 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 })
 export class GreetingsComponent implements OnInit {
   hoodyCost = 18.99;
+  markdown = `\`\`\` html
+<ul>
+  <li i18n>Hello, how are you?</li>
+  <li i18n>Hi, I'm good.</li>
+  <li i18n>What's new with you?</li>
+  <li i18n>I bought this hoody for {{ hoodyCost | currency }}</li>
+  <li i18n>It looks good on you!</li>
+</ul>
+\`\`\``;
   constructor() {}
 
   ngOnInit(): void {}
