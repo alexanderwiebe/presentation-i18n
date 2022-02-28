@@ -1,7 +1,7 @@
 {
   "xliffmergeOptions": {
-    "srcDir": "/locale",
-    "genDir": "/locale",
+    "srcDir": "src/locale",
+    "genDir": "src/locale",
     "i18nFile": "messages.xlf",
     "i18nBaseFile": "messages",
     "i18nFormat": "xlf",

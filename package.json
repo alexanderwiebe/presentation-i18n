@@ -8,10 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "extract": "ng extract-i18n --output-path src/locale",
+    "patch": "./node_modules/ngx-i18nsupport/dist/xliffmerge/xliffmerge -p src/xliffmerge.json en-CA fr-CA",
     "start:enus": "ng serve --port=1337",
     "start:enca": "ng serve --configuration=en-CA --port=2337",
-    "start:frca": "ng serve --configuration=fr-CA --port=3337",
-    "patch": "./node_modules/ngx-i18nsupport/dist/xliffmerge/xliffmerge -p xliffmerge.json en-CA,fr-CA"
+    "start:frca": "ng serve --configuration=fr-CA --port=3337"
   },
   "private": true,
   "dependencies": {
@@ -42,6 +42,7 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "ngx-i18nsupport": "~0.17.1",
     "typescript": "~4.5.2"
   }
 }
