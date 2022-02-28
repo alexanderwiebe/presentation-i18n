@@ -62,6 +62,9 @@
             },
             "en-CA": {
               "localize": ["en-CA"]
+            },
+            "fr-CA": {
+              "localize": ["fr-CA"]
             }
           },
           "defaultConfiguration": "production"
@@ -77,6 +80,9 @@
             },
             "en-CA": {
               "browserTarget": "presentation-i18n:build:en-CA"
+            },
+            "fr-CA": {
+              "browserTarget": "presentation-i18n:build:fr-CA"
             }
           },
           "defaultConfiguration": "development"
@@ -107,6 +113,10 @@
           "en-CA": {
             "translation": "src/locale/messages.en-ca.xlf",
             "baseHref": "en-CA"
+          },
+          "fr-CA": {
+            "translation": "src/locale/messages.fr-ca.xlf",
+            "baseHref": "fr-CA"
           }
         }
       }
