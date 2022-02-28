@@ -13,6 +13,7 @@ import {
   encapsulation: ViewEncapsulation.None,
 })
 export class TitleComponent implements OnInit {
+  todaysDate = new Date();
   constructor() {}
 
   ngOnInit(): void {}
