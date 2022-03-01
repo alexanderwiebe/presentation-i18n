@@ -6,6 +6,7 @@ import { HowToUseComponent } from './how-to-use/how-to-use.component';
 import { IntroComponent } from './intro/intro.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { TeamCanadaComponent } from './team-canada/team-canada.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { TitleComponent } from './title/title.component';
 import { WhatIsComponent } from './what-is/what-is.component';
@@ -30,6 +31,10 @@ const routes: Routes = [
   {
     path: 'quiz',
     component: QuizComponent,
+  },
+  {
+    path: 'team-canada',
+    component: TeamCanadaComponent,
   },
   {
     path: 'what-is',
