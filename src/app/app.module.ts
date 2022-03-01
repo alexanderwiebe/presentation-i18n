@@ -20,6 +20,7 @@ import { TitleComponent } from './title/title.component';
 import { WhatIsComponent } from './what-is/what-is.component';
 import { TeamCanadaComponent } from './team-canada/team-canada.component';
 import { BuildComponent } from './build/build.component';
+import { DeploymentComponent } from './deployment/deployment.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { BuildComponent } from './build/build.component';
     QuizComponent,
     TeamCanadaComponent,
     BuildComponent,
+    DeploymentComponent,
   ],
   imports: [
     BrowserModule,
