@@ -1,10 +1,19 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  OnInit,
+  ViewEncapsulation,
+} from '@angular/core';
 
 @Component({
   selector: 'app-greetings',
   templateUrl: './greetings.component.html',
   styleUrls: ['./greetings.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  encapsulation: ViewEncapsulation.None,
+  host: {
+    class: 'app-greetings',
+  },
 })
 export class GreetingsComponent implements OnInit {
   hoodyCost = 18.99;

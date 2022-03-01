@@ -11,6 +11,9 @@ import {
   styleUrls: ['./title.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
+  host: {
+    class: 'app-title',
+  },
 })
 export class TitleComponent implements OnInit {
   todaysDate = new Date();

@@ -7,6 +7,9 @@ import { map } from 'rxjs';
   templateUrl: './quiz.component.html',
   styleUrls: ['./quiz.component.scss'],
   encapsulation: ViewEncapsulation.None,
+  host: {
+    class: 'app-quiz',
+  },
 })
 export class QuizComponent implements OnInit {
   form = this.fb.group(

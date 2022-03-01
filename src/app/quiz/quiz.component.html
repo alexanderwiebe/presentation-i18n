@@ -6,19 +6,22 @@
     <span i18n>🇺🇸</span>
   </div>
 </div>
-<div class="slide" fxLayout="row">
-  <div class="code" fxFlex="50%">
-    <markdown lineNumbers [data]="htmlTemplate"></markdown>
-    <markdown lineNumbers [data]="tsLocalize"></markdown>
-    <markdown lineNumbers [data]="xliffEg"></markdown>
-  </div>
-  <div class="example" fxFlex="50%" [formGroup]="form">
-    <h2 i18n>What's your Ramones name?</h2>
-    <label i18n>Enter your name: </label>
-    <input formControlName="name" type="text" placeholder="Name" i18n-placeholder>
-    <div *ngIf="form.get('name')?.value as name">
-      <h3 i18n>Your Ramones name is:</h3>
-      <h4 i18n>{{ name }} Ramone {{ ramoneEndings[name.length] }}</h4>
+<div class="slide">
+  <h2 i18n>i18n $localize</h2>
+  <div fxLayout="row">
+    <div class="code" fxFlex="50%">
+      <markdown lineNumbers [data]="htmlTemplate"></markdown>
+      <markdown lineNumbers [data]="tsLocalize"></markdown>
+      <markdown lineNumbers [data]="xliffEg"></markdown>
+    </div>
+    <div class="example" fxFlex="50%" [formGroup]="form">
+      <h2 i18n>What's your Ramones name?</h2>
+      <label i18n>Enter your name: </label>
+      <input formControlName="name" type="text" placeholder="Name" i18n-placeholder>
+      <div *ngIf="form.get('name')?.value as name">
+        <h3 i18n>Your Ramones name is:</h3>
+        <h4 i18n>{{ name }} Ramone {{ ramoneEndings[name.length] }}</h4>
+      </div>
     </div>
   </div>
 </div>

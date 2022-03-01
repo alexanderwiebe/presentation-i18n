@@ -6,18 +6,21 @@
     <span i18n>🇺🇸</span>
   </div>
 </div>
-<div class="slide" fxLayout="row">
-  <div class="code" fxFlex="50%">
-    <markdown lineNumbers [data]="markdown"></markdown>
-  </div>
-  <div class="example" fxFlex="50%">
-    <ul>
-      <li i18n>Hello, how are you?</li>
-      <li i18n>Hi, I'm good.</li>
-      <li i18n>What's new with you?</li>
-      <li i18n>I bought this hoody for {{ hoodyCost | currency }}</li>
-      <li i18n>It looks good on you!</li>
-    </ul>
+<div class="slide">
+  <h2 i18n>i18n template</h2>
+  <div fxLayout="row">
+    <div class="code" fxFlex="50%">
+      <markdown lineNumbers [data]="markdown"></markdown>
+    </div>
+    <div class="example" fxFlex="50%">
+      <ul>
+        <li i18n>Hello, how are you?</li>
+        <li i18n>Hi, I'm good.</li>
+        <li i18n>What's new with you?</li>
+        <li i18n>I bought this hoody for {{ hoodyCost | currency }}</li>
+        <li i18n>It looks good on you!</li>
+      </ul>
+    </div>
   </div>
 </div>
 <div class="footer" fxLayout="row">
