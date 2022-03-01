@@ -19,6 +19,7 @@ import { ThanksComponent } from './thanks/thanks.component';
 import { TitleComponent } from './title/title.component';
 import { WhatIsComponent } from './what-is/what-is.component';
 import { TeamCanadaComponent } from './team-canada/team-canada.component';
+import { BuildComponent } from './build/build.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { TeamCanadaComponent } from './team-canada/team-canada.component';
     GreetingsComponent,
     QuizComponent,
     TeamCanadaComponent,
+    BuildComponent,
   ],
   imports: [
     BrowserModule,
