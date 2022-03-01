@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BuildComponent } from './build/build.component';
 import { DemoComponent } from './demo/demo.component';
+import { DeploymentComponent } from './deployment/deployment.component';
 import { GreetingsComponent } from './greetings/greetings.component';
-import { HowToUseComponent } from './how-to-use/how-to-use.component';
 import { IntroComponent } from './intro/intro.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { TeamCanadaComponent } from './team-canada/team-canada.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { TitleComponent } from './title/title.component';
-import { WhatIsComponent } from './what-is/what-is.component';
 
 const routes: Routes = [
   {
@@ -37,16 +37,16 @@ const routes: Routes = [
     component: TeamCanadaComponent,
   },
   {
-    path: 'what-is',
-    component: WhatIsComponent,
-  },
-  {
-    path: 'how-to-use',
-    component: HowToUseComponent,
-  },
-  {
     path: 'demo',
     component: DemoComponent,
+  },
+  {
+    path: 'build',
+    component: BuildComponent,
+  },
+  {
+    path: 'deployment',
+    component: DeploymentComponent,
   },
   {
     path: 'questions',

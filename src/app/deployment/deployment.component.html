@@ -1,1 +1,52 @@
-<p>deployment works!</p>
+<div class="header" fxLayout="row">
+  <div fxFlex="50%">
+    <a routerLink="">home</a>
+  </div>
+  <div fxFlex="50%" fxLayoutAlign="end">
+    <span i18n>🇺🇸</span>
+  </div>
+</div>
+<div class="slide">
+  <h2 i18n>Deployment</h2>
+  <div fxLayout="row">
+    <div class="code" fxFlex="50%">
+      <markdown lineNumbers [data]="build"></markdown>
+    </div>
+    <div class="example" fxFlex="50%">
+      <ul>
+        <li>wait for applause</li>
+        <li>A👏M👏A👏Z👏I👏N👏G</li>
+        <li>"The CLI builds all locales defined in the build configuration. "</li>
+      </ul>
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div class="code" fxFlex="50%">
+      <markdown lineNumbers [data]="serve"></markdown>
+    </div>
+    <div class="example" fxFlex="50%">
+      <ul>
+        <li>less exciting here</li>
+        <li>could use build, watch, localize... one day</li>
+      </ul>
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div class="code" fxFlex="50%">
+      <markdown lineNumbers [data]="angularJson"></markdown>
+    </div>
+    <div class="example" fxFlex="50%">
+      <ul>
+        <li>setup baseHref's and translation files</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="footer" fxLayout="row">
+  <div fxFlex="50%">
+    <a href="http://localhost:1337/build" i18n>previous</a>
+  </div>
+  <div fxFlex="50%" fxLayoutAlign="end">
+    <a href="http://localhost:2337/questions" i18n>next</a>
+  </div>
+</div>

@@ -1,1 +1,53 @@
-<p>build works!</p>
+<div class="header" fxLayout="row">
+  <div fxFlex="50%">
+    <a routerLink="">home</a>
+  </div>
+  <div fxFlex="50%" fxLayoutAlign="end">
+    <span i18n>🇺🇸</span>
+  </div>
+</div>
+<div class="slide">
+  <h2 i18n>Build of Translations</h2>
+  <div fxLayout="row">
+    <div class="code" fxFlex="50%">
+      <markdown lineNumbers [data]="extract"></markdown>
+      <div>Creates: presentation-i18n/src/locale/messages.xlf</div>
+    </div>
+    <div class="example" fxFlex="50%">
+      <ul>
+        <li>ng extract-i18n is the tool to create messages.xlf</li>
+      </ul>
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div class="code" fxFlex="50%">
+      <markdown lineNumbers [data]="patch"></markdown>
+      <div>Creates: presentation-i18n/src/locale/messages.en-ca.xlf</div>
+    </div>
+    <div class="example" fxFlex="50%">
+      <ul>
+        <li>Angular doesn't have much support 'after' initial translation</li>
+        <li>xliffmerge takes the new messages.xlf and merges with translated versions</li>
+      </ul>
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div class="code" fxFlex="50%">
+      <markdown lineNumbers [data]="xliff"></markdown>
+    </div>
+    <div class="example" fxFlex="50%">
+      <ul>
+        <li>trans-unit id is based on source text</li>
+        <li>state attribute used to denote something is translated</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="footer" fxLayout="row">
+  <div fxFlex="50%">
+    <a href="http://localhost:1337/demo" i18n>previous</a>
+  </div>
+  <div fxFlex="50%" fxLayoutAlign="end">
+    <a href="http://localhost:1337/deployment" i18n>next</a>
+  </div>
+</div>

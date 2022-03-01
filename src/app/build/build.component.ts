@@ -4,13 +4,32 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   selector: 'app-build',
   templateUrl: './build.component.html',
   styleUrls: ['./build.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  host: {
+    class: 'app-build',
+  },
 })
 export class BuildComponent implements OnInit {
+  extract = `\`\`\` bash
+ng extract-i18n --output-path src/locale
+  \`\`\``;
 
-  constructor() { }
+  patch = `\`\`\` bash
+xliffmerge -p src/xliffmerge.json en-CA fr-CA
+  \`\`\``;
 
-  ngOnInit(): void {
-  }
+  xliff = `\`\`\` xml
+<trans-unit id="8953033926734869941" datatype="html">
+  <source>Name</source>
+  <target state="translated">Name eh?</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/quiz/quiz.component.html</context>
+    <context context-type="linenumber">18</context>
+  </context-group>
+</trans-unit>
+  \`\`\``;
 
+  constructor() {}
+
+  ngOnInit(): void {}
 }
