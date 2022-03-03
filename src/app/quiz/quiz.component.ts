@@ -59,22 +59,22 @@ export class QuizComponent implements OnInit {
 
   xliffEg = $localize`
   \`\`\` xml
-  <trans-unit id="5655817595182674866" datatype="html">
-  <source>
-    <x id="INTERPOLATION" equiv-text="{{ name }}" />
-    Ramone
-    <x id="INTERPOLATION_1" equiv-text="{{ ramoneEndings[name.length] }}" />
-  </source>
-  <target state="translated">
-    Montreal Canadians!
-    <x id="INTERPOLATION_1" equiv-text="{{ ramoneEndings[name.length] }}" />
-    !! congrats
-    <x id="INTERPOLATION" equiv-text="{{ name }}" />
-    eh?
-  </target>
-  ⋮
+<trans-unit id="5655817595182674866" datatype="html">
+    <source>
+      <x id="INTERPOLATION" equiv-text="{{ name }}" />
+      Ramone
+      <x id="INTERPOLATION_1" equiv-text="{{ ramoneEndings[name.length] }}" />
+    </source>
+    <target state="translated">
+      Montreal Canadians!
+      <x id="INTERPOLATION_1" equiv-text="{{ ramoneEndings[name.length] }}" />
+      !! congrats
+      <x id="INTERPOLATION" equiv-text="{{ name }}" />
+      eh?
+    </target>
+    ⋮
 </trans-unit>
-  \`\`\`
+\`\`\`
   `;
 
   // form = this.fb.
