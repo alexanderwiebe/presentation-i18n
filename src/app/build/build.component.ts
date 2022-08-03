@@ -10,6 +10,9 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   },
 })
 export class BuildComponent implements OnInit {
+  headerClass = $localize`header american`;
+  footerClass = $localize`footer american`;
+
   extract = `\`\`\` bash
 ng extract-i18n --output-path src/locale
   \`\`\``;

@@ -16,6 +16,9 @@ import {
   },
 })
 export class IntroComponent implements OnInit {
+  headerClass = $localize`header american`;
+  footerClass = $localize`footer american`;
+
   constructor() {}
 
   ngOnInit(): void {}

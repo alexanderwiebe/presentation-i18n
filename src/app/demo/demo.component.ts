@@ -16,6 +16,9 @@ import {
   },
 })
 export class DemoComponent implements OnInit {
+  headerClass = $localize`header american`;
+  footerClass = $localize`footer american`;
+
   demoClicked: number = 0;
 
   constructor() {}

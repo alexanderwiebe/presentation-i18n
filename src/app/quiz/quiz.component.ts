@@ -12,6 +12,9 @@ import { map } from 'rxjs';
   },
 })
 export class QuizComponent implements OnInit {
+  headerClass = $localize`header american`;
+  footerClass = $localize`footer american`;
+
   form = this.fb.group(
     {
       name: [''],

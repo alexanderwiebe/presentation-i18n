@@ -16,6 +16,9 @@ import {
   },
 })
 export class GreetingsComponent implements OnInit {
+  headerClass = $localize`header american`;
+  footerClass = $localize`footer american`;
+
   hoodyCost = 18.99;
   markdown = `\`\`\` html
 <ul>

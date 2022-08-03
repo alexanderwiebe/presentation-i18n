@@ -10,6 +10,9 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   },
 })
 export class QuestionsComponent implements OnInit {
+  headerClass = $localize`header american`;
+  footerClass = $localize`footer american`;
+
   constructor() {}
 
   ngOnInit(): void {}

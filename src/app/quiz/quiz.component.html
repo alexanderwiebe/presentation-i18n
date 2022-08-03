@@ -1,4 +1,4 @@
-<div class="header" fxLayout="row">
+<div [ngClass]="headerClass" fxLayout="row">
   <div fxFlex="50%">
     <a routerLink="">home</a>
   </div>
@@ -35,7 +35,7 @@
     </div>
   </div>
 </div>
-<div class="footer" fxLayout="row">
+<div [ngClass]="footerClass" fxLayout="row">
   <div fxFlex="50%">
     <a i18n-href href="http://localhost:3337/greetings" i18n>previous</a>
   </div>

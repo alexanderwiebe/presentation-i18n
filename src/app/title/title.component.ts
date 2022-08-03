@@ -17,6 +17,9 @@ import {
 })
 export class TitleComponent implements OnInit {
   todaysDate = new Date();
+  headerClass = $localize`header american`;
+  footerClass = $localize`footer american`;
+
   constructor() {}
 
   ngOnInit(): void {}

@@ -7,6 +7,9 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
 })
 export class DeploymentComponent implements OnInit {
+  headerClass = $localize`header american`;
+  footerClass = $localize`footer american`;
+
   build = `\`\`\` bash
 ng build --localize
   \`\`\``;
