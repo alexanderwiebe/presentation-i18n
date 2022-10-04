@@ -92,7 +92,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/title/title.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">19</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/what-is/what-is.component.html</context>
@@ -139,11 +139,113 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/title/title.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">22</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/what-is/what-is.component.html</context>
           <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5642980142469064875" datatype="html">
+        <source>header american</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/build/build.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/demo/demo.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/deployment/deployment.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/how-to-use/how-to-use.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/questions/questions.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/team-canada/team-canada.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/thanks/thanks.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/what-is/what-is.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8627424434193895415" datatype="html">
+        <source>footer american</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/build/build.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/demo/demo.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/deployment/deployment.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/greetings/greetings.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/how-to-use/how-to-use.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/intro/intro.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/questions/questions.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/team-canada/team-canada.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/thanks/thanks.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/title/title.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/what-is/what-is.component.ts</context>
+          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4544760790537290277" datatype="html">
@@ -294,88 +396,88 @@
         <source> rock on</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">28</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1660420570524500821" datatype="html">
         <source> party on</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1392641102864588739" datatype="html">
         <source> right on</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1822484600385909123" datatype="html">
         <source> righteous</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7538215521923106575" datatype="html">
         <source> gnarly</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5612606625584385876" datatype="html">
         <source> tublar</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9044862958710665130" datatype="html">
         <source> way cool</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2241300523343491391" datatype="html">
         <source> awesome</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="907568240240264738" datatype="html">
         <source> groovy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4089888912629703885" datatype="html">
         <source> outrageous</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8733804408339377285" datatype="html">
         <source> funky</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3449470480995265380" datatype="html">
         <source> super</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3010187893488066701" datatype="html">
@@ -400,7 +502,7 @@
   </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/quiz/quiz.component.ts</context>
-          <context context-type="linenumber">60,78</context>
+          <context context-type="linenumber">63,81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2630867661955820871" datatype="html">
@@ -435,28 +537,14 @@
         <source>http://localhost:1337/</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/title/title.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1271260036909559504" datatype="html">
         <source>http://localhost:2337/</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/title/title.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5642980142469064875" datatype="html">
-        <source>header american</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/title/title.component.ts</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8627424434193895415" datatype="html">
-        <source>footer american</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/title/title.component.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
     </body>
